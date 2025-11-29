@@ -1,6 +1,6 @@
 from google import genai
 import sys
-client = genai.Client(api_key='AIzaSyC2z6JrSJiz2CfbACivW4l8b07wm_Ou3ZY')
+client = genai.Client(api_key='')
  
 #how to setup a chatbot
 chat = client.chats.create(model="gemini-2.5-flash")
