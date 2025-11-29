@@ -26,7 +26,7 @@ from google import genai
 # ---------- Configuration ----------
 # You can either hardcode your key here (NOT RECOMMENDED) or set the GENAI_API_KEY environment
 # variable. Example (Linux/macOS): export GENAI_API_KEY="YOUR_KEY"
-API_KEY = os.environ.get("GENAI_API_KEY", "AIzaSyC2z6JrSJiz2CfbACivW4l8b07wm_Ou3ZY")
+API_KEY = os.environ.get("GENAI_API_KEY", "")
 MODEL_NAME = "gemini-2.5-flash"
 
 # ---------- Chat wrapper ----------
